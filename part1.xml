@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga>
+
+  <producte categoria="Cuina">
+    <nom>Culleres</nom>
+    <descripcio>Pack de 6 culleres de metall</descripcio>
+    <preu>4.99€</preu>
+    <disponibilitat>en stock</disponibilitat>
+    <img src="images/culleres.png"/>
+  </producte>
+
+  <producte categoria="Mobles">
+    <nom>Armari</nom>
+    <descripcio>Armari amb 4 portes, perfecte per el teu saló</descripcio>
+    <preu>131.59€</preu>
+    <disponibilitat>esgotat</disponibilitat>
+    <img src="images/armari.jpg"/>
+  </producte>
+
+</botiga>
