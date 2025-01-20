@@ -1,0 +1,161 @@
+{
+    "pokemon": {
+        "pokemon_count": 2,
+        "pokemon_list": [
+            {
+                "id": 1,
+                "name": "Bulbasaur",
+                "type": {
+                    "primary": "grass",
+                    "secondary": "poison"
+                },
+                "weight": {
+                    "unit": "kg",
+                    "value": 6.9
+                },
+                "height": {
+                    "unit": "m",
+                    "value": 0.7
+                },
+                "stats": {
+                    "speed": {
+                        "name": "Speed",
+                        "stars": 3
+                    },
+                    "strength": {
+                        "name": "Strength",
+                        "stars": 3
+                    },
+                    "accuracy": {
+                        "name": "Accuracy",
+                        "stars": 4
+                    },
+                    "resistance": {
+                        "name": "Resistance",
+                        "stars": 4
+                    },
+                    "jump": {
+                        "name": "Jump",
+                        "stars": 3
+                    }
+                },
+                "moves": [
+                    {
+                        "level": 1,
+                        "name": "Tackle",
+                        "description": "A normal-type move with a power of 35 and 95% accuracy.",
+                        "power": 40,
+                        "contact": true
+                    },
+                    {
+                        "level": 3,
+                        "name": "Vine Whip",
+                        "description": "A grass-type move with a power of 35 and 10 PP.",
+                        "power": 45,
+                        "contact": true
+                    },
+                    {
+                        "level": 15,
+                        "name": "Sleep Powder",
+                        "description": "A grass-type move that puts the target to sleep. It doesn't affect Pokémon with Insomnia or Vital Spirit.",
+                        "power": null,
+                        "contact": false
+                    },
+                    {
+                        "level": 21,
+                        "name": "Take Down",
+                        "description": "A normal-type move that causes recoil damage equal to 1/4 of the HP removed from the target.",
+                        "power": 90,
+                        "contact": true
+                    }
+                ],
+                "image": "https://images.wikidexcdn.net//mwuploads//wikidex//4//43//Bulbasaur.png",
+                "evolutions": [
+                    {
+                        "pokemon_id": "Ivysaur",
+                        "required_level": 16
+                    },
+                    {
+                        "pokemon_id": "Venusaur",
+                        "required_level": 32
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Pikachu",
+                "type": {
+                    "primary": "electric",
+                    "secondary": null
+                },
+                "weight": {
+                    "unit": "kg",
+                    "value": 6.0
+                },
+                "height": {
+                    "unit": "m",
+                    "value": 0.4
+                },
+                "stats": {
+                    "speed": {
+                        "name": "Speed",
+                        "stars": 4
+                    },
+                    "strength": {
+                        "name": "Strength",
+                        "stars": 3
+                    },
+                    "accuracy": {
+                        "name": "Accuracy",
+                        "stars": 5
+                    },
+                    "resistance": {
+                        "name": "Resistance",
+                        "stars": 3
+                    },
+                    "jump": {
+                        "name": "Jump",
+                        "stars": 4
+                    }
+                },
+                "moves": [
+                    {
+                        "level": 1,
+                        "name": "Thunder Shock",
+                        "description": "An electric-type move that has a power of 40 and 100% accuracy.",
+                        "power": 40,
+                        "contact": false
+                    },
+                    {
+                        "level": 5,
+                        "name": "Quick Attack",
+                        "description": "A normal-type move with a priority that always goes first.",
+                        "power": 40,
+                        "contact": true
+                    },
+                    {
+                        "level": 10,
+                        "name": "Electro Ball",
+                        "description": "An electric-type move that deals more damage the faster the user is compared to the target.",
+                        "power": null,
+                        "contact": false
+                    },
+                    {
+                        "level": 18,
+                        "name": "Thunder Wave",
+                        "description": "An electric-type move that paralyzes the target, reducing their speed.",
+                        "power": null,
+                        "contact": false
+                    }
+                ],
+                "image": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/300px-Pikachu.png",
+                "evolutions": [
+                    {
+                        "pokemon_id": "Raichu",
+                        "required_item": "Thunder Stone"
+                    }
+                ]
+            }
+        ]
+    }
+}
